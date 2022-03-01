@@ -15,7 +15,7 @@ jobs:
       uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: https://safe-chamber-34946.herokuapp.com
+          heroku_app_name: https://safe-bastion-06763.herokuapp.com/
           heroku_email: anni.riihiaho@helsinki.fi
                  
     - name: Build and push
